@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "skinall",
+  "version": "${version}",
+  "name": "SkinAll",
+  "description": "Клиентский мод: показывает выбранный вами скин на всех игроках. Видите это только вы.",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.skinall.SkinAllClient"]
+  },
+  "mixins": ["skinall.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
